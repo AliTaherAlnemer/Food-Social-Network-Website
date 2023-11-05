@@ -1,4 +1,4 @@
-//Ali ALnemer   and  raffal Abu Eshey
+
 
 const uri = "mongodb+srv://alitalnemer:A123AliAln@cluster0.y0qrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
