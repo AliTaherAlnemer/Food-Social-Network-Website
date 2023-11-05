@@ -1,0 +1,50 @@
+ .buttons{
+		   position:absolute;
+		   top:20%;
+		   left:0px;
+		   height:100%;
+		   width:50%;
+		   background-color:rgb(171, 247, 237);
+		   
+	   }
+	   
+	    .display{
+		   position:absolute;
+		   top:0%;
+		   left:100%;
+		   height:100%;
+		   width:100%;
+		   
+		 background-color:rgb(220, 221, 222);
+	   }
+	   .head{
+		   position:absolute;
+		   top:0%;
+		   left:0%;
+		   height:20%;
+		   width:100%;
+		   
+		   background-color:rgb(245, 164, 152);
+	   }
+	   p{
+		   font-size:5vh;
+		   
+	   }
+	   table,tr,td{
+		   position:realtive;
+		   margin-right:5%;
+		   
+	   }
+	   .s1{
+		width:0.5%;   
+		   
+	   }
+	   .submit{
+		   
+		   margin-top:7%;
+		   
+	   }
+	   #search1{
+		    margin-top:7%;
+		   
+	   }

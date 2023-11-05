@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+
+<html lang="fr">
+
+<!--Ali  Alnemer   6/15/2021-->
+
+<!--This the html file is for the website that provide information about IFBP program-->
+<!--This page is an application for a basketball tryout .You have to place your information to apply-->
+<!--This page has a head of two images and header and body of a paragraph and the application-->
+<head>
+<meta charset="utf-8"/>
+<title> International Falcon Basketball Program</title>
+<link rel="stylesheet" type= "text/css" href="./style.css">
+<script src="code.js">
+</script>
+</head>
+<body>
+
+
+
+		
+<div class="main">
+
+ 
+
+<p id="results"></p>
+<table class="j">
+	
+		<h1>Login Here:</h1>	
+		<tr class="rows">
+			<td ><label for="userL">UserName: </label> </td>
+			<td> <input type="text" id="userL" name="user" class="inputs" required="required"   > </td>
+			
+		</tr>
+		
+		<tr class="rows">
+			<td > <label for="passL">Enter Password: </label></td>
+			<td ><input type="text" id="passL" name="passL" class="inputs"  required="required" title=" Must be 8+ characters" ></td >
+			
+		</tr>
+		
+	</table>
+	<input type="submit" value="Submit Application" class="submit" onclick="loginInfo()" />
+	<table class="j">
+	
+		<h1>Add User:</h1>	
+		<tr class="rows">
+			<td ><label for="user">UserName: </label> </td>
+			<td> <input type="text" id="user" name="user" class="inputs" required="required"   > </td>
+			
+		</tr>
+		
+		<tr class="rows">
+			<td > <label for="pass">Enter Password: </label></td>
+			<td ><input type="text" id="pass" name="pass" class="inputs"  required="required" title=" Must be 8+ characters" ></td >
+			
+		</tr>
+		
+	</table>
+	
+		<input type="submit" value="Submit Application" class="submit" onclick="getUser_1()"/>
+	<h1 id="name"></h1>		
+		
+		
+	
+		
+
+		
+		
+		
+
+	
+	</div>
+	
+	
+		
+</body>
+</html>

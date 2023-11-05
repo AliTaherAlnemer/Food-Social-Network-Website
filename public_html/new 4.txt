@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+
+<html lang="fr">
+
+<!--Ali  Alnemer   6/15/2021-->
+
+<!--This the html file is for the website that provide information about IFBP program-->
+<!--This page is an application for a basketball tryout .You have to place your information to apply-->
+<!--This page has a head of two images and header and body of a paragraph and the application-->
+<head>
+<meta charset="utf-8"/>
+<title> International Falcon Basketball Program</title>
+<link rel="stylesheet" type= "text/css" href="./style.css">
+<script src="code.js">
+</script>
+</head>
+<body>
+
+
+
+		
+<div class="">
+
+ 
+
+
+<table class="j">
+	
+		<h1>Add item:</h1>	
+		
+		<tr class="rows">
+			<td ><label for="title">Title: </label> </td>
+			<td> <input type="text" id="title" name="title" class="inputs" required="required"   > </td>
+			
+		</tr>
+		
+		<tr class="rows">
+			<td > <label for="desc">Desc: <span class="star"> *</span></label></td>
+			<td ><input type="text" id="desc" name="desc" class="inputs"  required="required" pattern=".{8,}" title=" Must be 8+ characters" ></td >
+			
+		</tr>
+	
+		<tr class="rows">
+			<td ><label for="img">Image: </label> </td>
+			<td> <input type="text" id="img" name="img" class="inputs" required="required"   > </td>
+			
+		</tr>
+		<tr class="rows">
+			<td ><label for="Price">Price: </label> </td>
+			<td> <input type="text" id="price" name="price" class="inputs" required="required"   > </td>
+			
+		</tr>
+		<tr class="rows">
+			<td ><label for="stat">stat: </label> </td>
+			<td> <input type="text" id="stat" name="stat" class="inputs" required="required"   > </td>
+			
+		</tr> 
+		<tr class="rows">
+			<td ><label for="user2">UserName: </label> </td>
+			<td> <input type="text" id="user2" name="user2" class="inputs" required="required"   > </td>
+			
+		</tr>
+		
+	</table>
+	
+		<input type="submit" value="Submit Application" class="submit" onclick="getUser_1()"/>
+		
+		
+		
+	
+		
+
+		
+		
+		
+
+	
+	</div>
+	
+	
+		
+</body>
+</html>

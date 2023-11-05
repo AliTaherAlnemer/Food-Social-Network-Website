@@ -1,0 +1,101 @@
+/*Ali ALnemer
+ * 7/10/21
+ * this the css file for index.html 
+ */
+#chat {
+	font-family:monospace;	
+		margin-bottom:1000px;
+	 position:absolute;
+		top:0px;
+		left:0px;
+	height:70%;
+	/*	height: calc(70% - 100px);*/
+		min-height:200px;
+	background-color:yellow;
+	  overflow-y: scroll;
+width:100%;
+}
+#info {
+	font-family:monospace;	
+		height: calc(70% - 100px);
+		min-height:200px;
+		margin-bottom:10000px;
+	 position:absolute;
+		top:0px;
+		left:0px;
+	height:70%;
+	background-color:yellow;
+width:100%;
+	  overflow-y: scroll;
+}
+
+table,tr,td{
+
+/*	position:absolute;
+	top:50%;
+	left:0px;
+	width:100%;
+	height:30%;
+	background-color:red;
+*/
+margin-top:30px;
+
+
+}
+.text{
+	position:fixed;
+	top:70%;
+	left:0px;
+	width:100%;
+	height:30%;
+	background-color:rgb(227,194,148);
+
+
+}
+#alias2{
+/*background-color:white;*/
+position:fixed;
+/*width:20px;
+	height:50px;*/
+top:70%
+
+}
+#message2{
+/*margin-top:888888880%;*/
+/*background-color:gray;*/
+position:fixed;
+/*	height:50px;*/
+top:80%;
+
+}
+#alias{
+background-color:white;
+position:realtive;
+width:320px;
+margin-left:15%;
+	height:5%;
+	min-height:30px;
+top:70%
+
+}
+#message{
+background-color:white;
+position:realtive;
+width:320px;
+margin-left:15%;
+	height:5%;
+	min-height:30px;
+top:80%;
+
+}
+#button{
+	margin-top:10px;
+margin-left:15%;
+	background-color:rgb(250,213,110);
+position:realtive;
+	width:320px;
+	height:30px;
+	min-height:5%;
+	top:90%;
+
+}
